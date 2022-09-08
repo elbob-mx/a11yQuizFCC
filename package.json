@@ -1,0 +1,24 @@
+{
+  "name": "a11yquizfcc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./output.css",
+    "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbob-mx/a11yQuizFCC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elbob-mx/a11yQuizFCC/issues"
+  },
+  "homepage": "https://github.com/elbob-mx/a11yQuizFCC#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
